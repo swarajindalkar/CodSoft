@@ -71,3 +71,34 @@ public class NumberGuessingGame {
         scanner.close();
     }
 }
+
+#output
+    === Welcome to the Number Guessing Game! ===
+
+--- Round 1 ---
+I'm thinking of a number between 1 and 100.
+You have 7 attempts to guess it.
+Enter your guess: 50
+Too low!
+Enter your guess: 75
+Too low!
+Enter your guess: 90
+Too high!
+Enter your guess: 80
+Too low!
+Enter your guess: 85
+Too high!
+Enter your guess: 83
+Too high!
+Enter your guess: 81
+Too low!
+? You've used all your attempts. The number was: 82
+Your current score: 0
+Do you want to play another round? (yes/no): yes
+
+--- Round 2 ---
+I'm thinking of a number between 1 and 100.
+You have 7 attempts to guess it.
+Enter your guess: 
+=== Session Ended. Please Run the code again ===
+    
